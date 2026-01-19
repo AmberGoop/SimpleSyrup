@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/honey_block"
+      },
+      {
+        "model": "minecraft:block/honey_block",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/honey_block",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/honey_block",
+        "y": 270
+      }
+    ]
+  }
+}

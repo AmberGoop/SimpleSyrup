@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/carrots_stage2",
+		"particle": "block/carrots_stage1"
+	},
+	"elements": [
+		{
+			"name": "CarrotMainBody",
+			"from": [5, -3, 5],
+			"to": [11, 5, 11],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [12, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 3, 8], "texture": "#1"},
+				"east": {"uv": [7, 0, 10, 4], "texture": "#1"},
+				"south": {"uv": [3, 4, 6, 8], "texture": "#1"},
+				"west": {"uv": [6, 4, 9, 8], "texture": "#1"},
+				"up": {"uv": [7, 4, 4, 1], "texture": "#1"},
+				"down": {"uv": [12, 5, 9, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Stem1",
+			"from": [1.27164, 2.60195, 8.1],
+			"to": [9.27164, 10.60195, 8.1],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [5, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"up": {"uv": [4, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Stem2",
+			"from": [5.1, 2.60195, 4.22836],
+			"to": [5.1, 10.60195, 12.22836],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [5, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"up": {"uv": [0, 4, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#1"}
+			}
+		}
+	]
+}

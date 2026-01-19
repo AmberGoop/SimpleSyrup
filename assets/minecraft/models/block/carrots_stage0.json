@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/carrots_stage0",
+		"particle": "block/carrots_stage0"
+	},
+	"elements": [
+		{
+			"name": "Stem1",
+			"from": [5, -1, 8],
+			"to": [11, 7, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [5, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 8], "texture": "#3"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#3"},
+				"south": {"uv": [0, 0, 6, 8], "texture": "#3"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#3"},
+				"up": {"uv": [6, 0, 0, 0], "texture": "#3"},
+				"down": {"uv": [6, 0, 0, 0], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Stem2",
+			"from": [8, -1, 5],
+			"to": [8, 7, 11],
+			"rotation": {"angle": 0, "axis": "z", "origin": [5, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#3"},
+				"east": {"uv": [0, 0, 6, 8], "texture": "#3"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#3"},
+				"west": {"uv": [0, 0, 6, 8], "texture": "#3"},
+				"up": {"uv": [0, 6, 0, 0], "texture": "#3"},
+				"down": {"uv": [0, 0, 0, 6], "texture": "#3"}
+			}
+		}
+	]
+}

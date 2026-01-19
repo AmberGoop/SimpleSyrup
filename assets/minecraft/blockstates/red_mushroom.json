@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/red_mushroom1"
+      },
+      {
+        "model": "minecraft:block/red_mushroom2"
+      }
+    ]
+  }
+}
