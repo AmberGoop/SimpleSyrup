@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"lever_off": "block/lever_on"
+		"lever_off": "block/lever_on",
+		"particle": "block/lever_on"
 	},
 	"elements": [
 		{
